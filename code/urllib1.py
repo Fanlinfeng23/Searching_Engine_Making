@@ -3,7 +3,7 @@ import urllib.request
 #send a basic request to Baidu
 
 def load_baidu_data():
-  url='https://www.baidu.com'
+  url='http://www.baidu.com'
   response = urllib.request.urlopen(url)
   print(response.code)
   #If is code returned is 200, it means you requested successfully.
